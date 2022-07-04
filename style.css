@@ -13,6 +13,7 @@ span {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .one {
@@ -22,6 +23,7 @@ section {
 .one {
     width: 50%;
     padding-left: 8%;
+    padding-right: 8%;
 }
 
 .one img {
@@ -40,4 +42,10 @@ a {
 .top {
     background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
